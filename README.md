@@ -9,7 +9,10 @@ Distributed learning (DL, also known as federated learning) algorithms try to le
 
 In this repository, we explain the VERTIcal Grid lOgistic regression (VERTIGO) model for DL of vertically-partitioned data. The latter refers to the condition in which each party owns a portion of the (clinical) variables of the same group of instances (in our case, patients; Fig. 1). We also show an example simulating a distributed scenario.
 
+<p align="center"> 
 <img src="./images/vertical.png" align="center" width=33%>
+</p>
+Fig. 1. Representation of vertically-partitioned data. In this case, the involved parties have different features for the same instances (i.e., patients).
 
 ## [_Understanding_ VERTIGO](./scripts/demo_vertigo.ipynb)
 In this notebook we provide a step-by-step explanation of how VERTIGO works and how we implemented them. We also include a few tweeks that we needed to do to get VERTIGO running that aren't explicitely mentioned in the paper.
