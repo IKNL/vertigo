@@ -1,15 +1,15 @@
-<img src="https://iknl.nl/images/default-source/images/.png?sfvrsn=3" align="right">
+<img src="https://github.com/IKNL/guidelines/blob/master/resources/logo.png?raw=true" width=200 align="right">
 
 # VERTIGO
 Explanation and (local) implementation of the VERTIGO algorithm (logistic regression for vertically-partitioned data) in Python.
 
 ----
 
-Distributed learning (DL, also known as federated learning) algorithms try to learn a global model using data from different sources without data ever leaving their original location. Furthermore, no raw (patient) sensitive data are shared between any of the parties. In other words, instead of bringing the data to the algorithms, we bring the algorithms to the data.
+Federated learning (FL, also known as distributed learning) algorithms try to learn a global model using data from different sources without data ever leaving their original location. Furthermore, no raw (patient) sensitive data are shared between any of the parties. In other words, instead of bringing the data to the algorithms, we bring the algorithms to the data.
 
 In this repository, we explain the VERTIcal Grid lOgistic regression (VERTIGO) model for DL of vertically-partitioned data. The latter refers to the condition in which each party owns a portion of the (clinical) variables of the same group of instances (in our case, patients; Fig. 1). We also show an example simulating a distributed scenario.
 
-<p align="center"> 
+<p align="center">
 <img src="./images/vertical.png" align="center" width=33%>
 </p>
 Fig. 1. Representation of vertically-partitioned data. In this case, the involved parties have different features for the same instances (i.e., patients).
@@ -22,8 +22,9 @@ Although VERTIGO is intended to be used in a distributed scenario, in this noteb
 
 ----
 
+###### Disclaimer
 Please note that VERTIGO was originally proposed in the paper
 
 > [Li, Yong, et al. "Vertical grid logistic regression (vertigo)." Journal of the American Medical Informatics Association 23.3 (2015): 570-579](https://academic.oup.com/jamia/article/23/3/570/2908996).
 
-Full credit goes to the authors. We are just providing the implementation and a step-by-step explanation.
+If you use the presented implementation of VERTIGO, please cite the original paper as well as this repository using its DOI. 
