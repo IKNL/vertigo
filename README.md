@@ -1,4 +1,4 @@
-<img src="https://github.com/IKNL/guidelines/blob/master/resources/logo.png?raw=true" width=200 align="right">
+<img src="https://github.com/IKNL/guidelines/blob/master/resources/logos/iknl_nl.png?raw=true" width=200 align="right">
 
 # VERTIGO
 Explanation and (local) implementation of the VERTIGO algorithm (logistic regression for vertically-partitioned data) in Python.
